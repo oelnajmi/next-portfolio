@@ -54,7 +54,9 @@ const About = () => {
           as a <span className="text-white font-medium">DevOps Engineer</span>.
           I&apos;m leading the transition of our project to adopt the Angular
           frontend framework and Maven, moving towards a more modern,
-          microservice-based architecture.
+          microservice-based architecture. I am also responsible for automating
+          deployments and migrations, and providing developer support to ensure
+          they are free of any roadblocks.
         </p>
         <p className="mt-6">
           {/* Update passions and mindset */}
