@@ -37,12 +37,11 @@ const ThreeDCard = () => {
                 </CardItem>
                 <CardItem translateZ="100" className="w-full mt-4">
                   <Image
-                    src={item.image}
-                    height="1000"
-                    width="1000"
+                    src={`/next-portfolio${item.image}`}
+                    height={1000}
+                    width={1000}
                     className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                     alt="thumbnail"
-                    // unoptimized
                     priority
                   />
                 </CardItem>
@@ -74,21 +73,21 @@ const dummyData = [
     title: "Brand Kit",
     description:
       "Full-stack brand kit management app using React, Vite, Railway, TypeScript, Express.js, and PostgreSQL, with authentication and CRUD operations.",
-    image: "/brand-kit.png", // Updated image path
+    image: "/next-portfolio/brand-kit.png",
     link: "https://play.google.com/store/apps/details?id=com.educationfund.edufund",
   },
   {
     title: "Expense Tracker",
     description:
       "A full-stack Next.js 14 finance management app with expense tracking and insights, built using React, TypeScript, Drizzle ORM, Auth.js, and PostgreSQL.",
-    image: "/expense-tracker.png", // Updated image path
+    image: "/next-portfolio/expense-tracker.png",
     link: "https://play.google.com/store/apps/details?id=com.educationfund.edufund",
   },
   {
     title: "Spotify Playlist Data",
     description:
       "A Next.js web app leveraging TypeScript, tRPC, Prisma, Tailwind CSS, and the Spotify API to analyze playlist data, with NextAuth.js for authentication and Material-UI for styling.",
-    image: "/mumetric.png", // Updated image path
+    image: "/next-portfolio/mumetric.png",
     link: "https://play.google.com/store/apps/details?id=com.educationfund.edufund",
   },
 ];
