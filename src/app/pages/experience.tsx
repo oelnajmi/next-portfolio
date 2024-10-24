@@ -7,8 +7,8 @@ export function Experience() {
     {
       title: (
         <Image
-          src="https://github.com/user-attachments/assets/c83b3c79-2f5f-45cb-8d48-012b9b8e5135"
-          alt="adecco-logo"
+          src="https://s3-us-west-2.amazonaws.com/cbi-image-service-prd/original/9f1a7c3c-ec48-4936-a080-16a8e033970c.png"
+          alt="cra-logo"
           width={200}
           height={60}
         />
@@ -18,13 +18,13 @@ export function Experience() {
         <div className="max-w-4xl mx-auto">
           <div>
             <h1 className="text-3xl  text-white mb-6 flex items-end">
-              <span className="font-bold">Software Developer</span>
+              <span className="font-bold">DevOps Engineer</span>
               <span className="text-gray-600 text-base ml-2 align-bottom">
-                (May 2023 – Present)
+                (July 2020 – Present)
               </span>
             </h1>
 
-            <div className="text-md text-gray-400">
+            {/* <div className="text-md text-gray-400">
               <span className="text-white font-medium">The Adecco Group</span>{" "}
               is a global{" "}
               <span className="font-medium text-white">
@@ -45,240 +45,95 @@ export function Experience() {
                 outsourcing services
               </span>{" "}
               to businesses across various industries.
-            </div>
+            </div> */}
             <div className="text-md text-gray-400 mt-8">
-              <p>
+              {/* <p>
                 At <span className="text-white font-medium">Adecco Group</span>,
                 I contribute to the development of the{" "}
-                <span className="font-medium text-white">Adecco India app</span>
-                , which is utilized by top companies for staffing solutions.
-                <p className="mt-2">
-                  I also work on the{" "}
-                  <span className="font-medium text-white">global web app</span>
-                  , ensuring it meets diverse needs across various regions. My
-                  expertise includes using{" "}
-                  <span className="font-medium text-white">React Native</span>{" "}
-                  and <span className="font-medium text-white">React.js</span>{" "}
-                  to build efficient, user-friendly applications.
-                </p>
-              </p>
-              <p className="mt-2">
-                Additionally, I have developed a{" "}
+                <span className="font-medium text-white">Adecco India app</span>{" "}
+                and the{" "}
+                <span className="font-medium text-white">global web app</span>,
+                while also managing critical DevOps responsibilities:
+              </p> */}
+              <ul className="list-disc pl-5 mt-4 space-y-2">
+                <li>
+                  <span className="font-medium text-white">
+                    Infrastructure Management & Optimization:
+                  </span>{" "}
+                  Managed 40 WebLogic demo servers, providing production-like
+                  environments for development and testing. Developed and
+                  maintained CI/CD pipelines for seamless integration and
+                  deployment, optimizing resource use for cost-effectiveness.
+                </li>
+                <li>
+                  <span className="font-medium text-white">
+                    CI/CD Pipeline Automation:
+                  </span>{" "}
+                  Automated build, deployment, and migration processes using
+                  Jenkins, Maven, and Infrastructure as Code (IaC) principles,
+                  reducing manual intervention by 80%.
+                </li>
+                <li>
+                  <span className="font-medium text-white">
+                    SOC Compliance & Security:
+                  </span>{" "}
+                  Applied and facilitated SOC compliance and security best
+                  practices, contributing to secure and compliant infrastructure
+                  across the project.
+                </li>
+                <li>
+                  <span className="font-medium text-white">
+                    Backend Integration & API Management:
+                  </span>{" "}
+                  Guided developers in integrating Angular frontends with Java
+                  backends, ensuring secure and efficient API communication.
+                </li>
+                <li>
+                  <span className="font-medium text-white">
+                    Team Training & Knowledge Sharing:
+                  </span>{" "}
+                  Conducted training sessions on DevOps tools, security
+                  practices, and infrastructure management to enhance team
+                  productivity.
+                </li>
+                <li>
+                  <span className="font-medium text-white">
+                    DevOps Transformation Leadership:
+                  </span>{" "}
+                  Led the transition from an Ant-based monolithic project to a
+                  Maven-based multi-module pipeline, cutting build times by 50%
+                  and improving code maintainability.
+                </li>
+                <li>
+                  <span className="font-medium text-white">
+                    Production Support:
+                  </span>{" "}
+                  Played a critical role in production deployments, quickly
+                  resolving issues to minimize downtime and ensure smooth
+                  operations.
+                </li>
+                <li>
+                  <span className="font-medium text-white">
+                    Developer Tooling & Automation:
+                  </span>{" "}
+                  Developed internal tools, including log parsers, automation
+                  scripts, and peer review analysis tools, enhancing developer
+                  productivity.
+                </li>
+              </ul>
+              <p className="mt-4">
+                Additionally, I developed a{" "}
                 <span className="font-medium text-white">
                   white-label solution
                 </span>{" "}
-                designed to streamline the candidate onboarding process,
-                enhancing user experience and operational efficiency. This
-                experience has honed my skills in creating scalable applications
-                that facilitate better hiring and onboarding practices globally.
+                to streamline the candidate onboarding process, enhancing user
+                experience and operational efficiency.
               </p>
             </div>
           </div>
         </div>
-      )
-    },
-    {
-      title: (
-        <Image
-          src="https://github.com/user-attachments/assets/e84b5090-32a6-4287-8588-5f4cc9b40e3d"
-          alt="torum-logo"
-          width={120}
-          height={40}
-        />
       ),
-      duration: "2023 – Present",
-      content: (
-        <div className="max-w-4xl mx-auto">
-          <div>
-            <h1 className="text-3xl  text-white mb-6 flex items-end">
-              <span className="font-bold">Mobile Application Developer</span>
-              <span className="text-gray-600 text-base ml-2 align-bottom">
-                (May 2022 – May 2023)
-              </span>
-            </h1>
-
-            <div className="text-md text-gray-400">
-              <span className="text-white font-medium">Torum</span> is a
-              cryptocurrency-focused{" "}
-              <span className="font-medium text-white">
-                social media platform
-              </span>{" "}
-              that connects{" "}
-              <span className="font-medium text-white">enthusiasts</span>,{" "}
-              <span className="font-medium text-white">investors</span>, and{" "}
-              <span className="font-medium text-white">developers</span>,
-              allowing them to share{" "}
-              <span className="font-medium text-white">insights</span>, build{" "}
-              <span className="font-medium text-white">communities</span>, and
-              earn <span className="font-medium text-white">rewards</span>{" "}
-              through content creation. It also includes features like a{" "}
-              <span className="font-medium text-white">marketplace</span> for
-              buying and selling crypto and{" "}
-              <span className="font-medium text-white">
-                educational resources
-              </span>
-              .
-            </div>
-            <div className="text-md text-gray-400 mt-8">
-              <p>
-                At <span className="text-white font-medium">Torum</span>, I
-                significantly enhanced user engagement by implementing effective
-                <span className="text-white font-medium">
-                  {" "}
-                  in-app{" "}
-                </span> and{" "}
-                <span className="text-white font-medium">
-                  push notifications
-                </span>
-                , utilizing{" "}
-                <span className="text-white font-medium"> deep linking </span>{" "}
-                for smooth user redirection. I designed robust and user-friendly
-                components, rigorously testing them to ensure scalability for
-                future feature expansions.
-              </p>
-              <p className="mt-2">
-                I also established streamlined{" "}
-                <span className="text-white font-medium">
-                  {" "}
-                  deployment processes{" "}
-                </span>
-                through the{" "}
-                <span className="font-medium text-white">
-                  Google Play Console
-                </span>
-                , facilitating seamless alpha and beta app distribution.
-              </p>{" "}
-              <p className="mt-2">
-                To further{" "}
-                <span className="text-white font-medium">
-                  optimize mobile app performance
-                </span>{" "}
-                and address slowness issues, I implemented several strategies. I
-                improved the app&apos;s responsiveness by utilizing{" "}
-                <span className="text-white font-medium">
-                  lazy loading techniques
-                </span>{" "}
-                to load components only when needed, reducing initial load time.
-                I also optimized images and other assets for{" "}
-                <span className="text-white font-medium">faster rendering</span>
-                , ensuring that they are appropriately compressed and sized for
-                mobile devices.
-              </p>
-              <p className="mt-2">
-                Additionally, I created{" "}
-                <span className="text-white font-medium"></span>comprehensive
-                guidelines for mobile app{" "}
-                <span className="text-white font-medium">version control</span>,{" "}
-                <span className="text-white font-medium">commits</span>, and{" "}
-                <span className="text-white font-medium">
-                  pull request procedures
-                </span>
-                , providing essential support to my fellow developers. This
-                approach not only{" "}
-                <span className="text-white font-medium">
-                  improved operational efficiency
-                </span>{" "}
-                but also fostered a collaborative development environment.
-              </p>
-            </div>
-          </div>
-        </div>
-      )
     },
-    {
-      title: (
-        <Image
-          src="https://github.com/user-attachments/assets/2c438a5f-e9e4-4708-b711-aad7d4ef77e2"
-          alt="adecco-logo"
-          width={200}
-          height={60}
-        />
-      ),
-      content: (
-        <div className="max-w-4xl mx-auto">
-          <div>
-            <h1 className="text-3xl  text-white mb-6 flex items-end">
-              <span className="font-bold">Product Engineer</span>
-              <span className="text-gray-600 text-base ml-2 align-bottom">
-                (Aug 2020 - May 2022 )
-              </span>
-            </h1>
-
-            <div className="text-md text-gray-400">
-              <span className="text-white font-medium">EduFund</span> is
-              India&apos;s first dedicated{" "}
-              <span className="font-medium text-white">
-                education savings platform
-              </span>
-              , helping parents plan financially for their children&apos;s
-              higher education through{" "}
-              <span className="font-medium text-white">investment</span>,{" "}
-              <span className="font-medium text-white">cost discovery</span>,
-              and{" "}
-              <span className="font-medium text-white">
-                academic counseling
-              </span>
-              .
-              <p className="mt-2">
-                The app offers tools to estimate future college expenses, invest
-                in various asset classes, secure education loans, and access
-                academic guidance.
-              </p>
-            </div>
-
-            <div className="text-md text-gray-400 mt-8">
-              At <span className="text-white font-medium">EduFund</span>, I led
-              the implementation of{" "}
-              <span className="text-white font-medium">
-                KYC verification processes
-              </span>{" "}
-              for investment account creation in{" "}
-              <span className="text-white font-medium">India</span> and the{" "}
-              <span className="text-white font-medium">United States</span>,
-              streamlining the onboarding experience for non-KYC users. By
-              leveraging third-party tools, I ensured secure data access through
-              advanced biometric features such as{" "}
-              <span className="text-white font-medium">facial recognition</span>{" "}
-              and{" "}
-              <span className="text-white font-medium">
-                fingerprint scanning
-              </span>
-              .
-              <p className="mt-2">
-                To optimize user tracking and enhance marketing strategies, I
-                integrated{" "}
-                <span className="text-white font-medium">Firebase</span> for
-                comprehensive monitoring of user activities, allowing us to
-                refine targeted marketing efforts based on demographic data.
-                This integration of{" "}
-                <span className="text-white font-medium">
-                  push notifications
-                </span>{" "}
-                resulted in a remarkable{" "}
-                <span className="text-white font-medium">47%</span> increase in
-                new user engagement.
-              </p>
-              <p className="mt-2">
-                I also streamlined app building and deployment workflows by
-                seamlessly integrating{" "}
-                <span className="text-white font-medium">Fastlane</span>, a
-                third-party tool that automated our deployment processes.{" "}
-                Additionally, I played a pivotal role in developing a{" "}
-                <span className="text-white font-medium">
-                  white-label solution
-                </span>{" "}
-                for <span className="text-white font-medium">ICICI Bank</span>,
-                leveraging{" "}
-                <span className="text-white font-medium">Next.js</span>{" "}
-                technology to enhance our offerings. This multifaceted approach
-                not only improved operational efficiency but also contributed to
-                the overall growth of the platform.
-              </p>
-            </div>
-          </div>
-        </div>
-      )
-    }
   ];
   return (
     <div className="max-w-7xl mx-auto px-4 mt-20">

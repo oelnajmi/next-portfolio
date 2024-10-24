@@ -12,42 +12,56 @@ const About = () => {
       </div>
       <h3 className="md:text-xl text-sm lg:text-xl font-extralight text-left relative z-20 text-gray-400 max-w-7xl pb-8 lg:mb-4 pl-4">
         <p>
-          Hello, I&apos;m Priyanka Sharma, also known as{" "}
-          <span className="text-white font-medium">lassiecoder</span> in the
-          tech community.
+          {/* Update the introduction */}
+          Hello, I&apos;m a passionate{" "}
+          <span className="text-white font-medium">
+            DevOps Engineer and Fullstack Developer
+          </span>
+          .
         </p>
         <p className="mt-6">
           With <span className="text-white font-medium">4 years </span>
-          of experience as a <span className="text-white font-medium"></span>
-          <span className="text-white font-medium">Software Developer</span>, I
-          specialize in <span className="text-white font-medium"></span>mobile
-          and web app development.
-        </p>
-        <p className="mt-6">
-          My technical expertise includes –{" "}
-          <span className="text-white font-medium">JavaScript</span>,{" "}
-          <span className="text-white font-medium">TypeScript</span>, and{" "}
-          <span className="text-white font-medium">React ecosystems</span>,
-          along with{" "}
-          <span className="text-white font-medium">backend technologies</span>,{" "}
-          <span className="text-white font-medium">cloud deployment</span>,{" "}
-          <span className="text-white font-medium">state management</span>,{" "}
+          of experience, I specialize in{" "}
           <span className="text-white font-medium">
-            real-time communication
+            web app development
+          </span>{" "}
+          and <span className="text-white font-medium">DevOps practices</span>.
+        </p>
+        <p className="mt-6">
+          {/* Update technical expertise */}
+          My technical expertise includes –{" "}
+          <span className="text-white font-medium">TypeScript</span>,{" "}
+          <span className="text-white font-medium">React ecosystems</span>,{" "}
+          <span className="text-white font-medium">NodeJs</span>,{" "}
+          <span className="text-white font-medium">
+            {" "}
+            Relational & Non-Relational Databases
           </span>
-          , and <span className="text-white font-medium">UI development</span>{" "}
-          and <span className="text-white font-medium">testing</span>.
+          , <span className="text-white font-medium">DevOps CI/CD</span>,{" "}
+          <span className="text-white font-medium">cloud security</span>,{" "}
+          <span className="text-white font-medium">infrastructure</span>,{" "}
+          <span className="text-white font-medium">Java</span>,{" "}
+          <span className="text-white font-medium">Angular</span>,{" "}
+          <span className="text-white font-medium">Jenkins</span>, and{" "}
+          <span className="text-white font-medium">Docker</span>.
         </p>
         <p className="mt-6">
-          Currently, I&apos;m contributing my skills to{" "}
-          <span className="text-white font-medium">The Adecco Group</span>, a
-          leading <span className="text-white font-medium">Swiss company</span>{" "}
-          known for innovative solutions.
+          {/* Update current work */}
+          Currently, I&apos;m contributing my skills to the{" "}
+          <span className="text-white font-medium">
+            Canada Revenue Agency
+          </span>{" "}
+          as a <span className="text-white font-medium">DevOps Engineer</span>.
+          I&apos;m leading the transition of our project to adopt the Angular
+          frontend framework and Maven, moving towards a more modern,
+          microservice-based architecture.
         </p>
         <p className="mt-6">
-          I&apos;m passionate about pushing technological boundaries and
-          delivering impactful solutions that drive success. My commitment to
-          innovation and excellence defines every project I undertake.
+          {/* Update passions and mindset */}
+          I&apos;m passionate about building clean, efficient, and scalable
+          systems that provide benefits to people. With an entrepreneurial
+          mindset, I&apos;m always generating ideas and love working on projects
+          that push the boundaries of technology.
         </p>
       </h3>
     </div>

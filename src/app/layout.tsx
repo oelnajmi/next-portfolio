@@ -5,14 +5,13 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title:
-    "Portfolio | Priyanka Sharma (lassiecoder) | Mobile & Web app developer",
+  title: "Portfolio | Omar Elnajmi",
   description:
-    "Crafting compelling narratives through design, merging creativity with functionality seamlessly."
+    "Experienced DevOps Engineer and Full Stack Developer specializing in web app development and DevOps practices.",
 };
 
 export default function RootLayout({
-  children
+  children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {

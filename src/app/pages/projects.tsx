@@ -46,7 +46,7 @@ const ThreeDCard = () => {
                     priority
                   />
                 </CardItem>
-                <div className="flex justify-end items-center mt-6">
+                {/* <div className="flex justify-end items-center mt-6">
                   <Link href={item.link} target="_blank">
                     <ButtonsCard>
                       <button className="relative inline-flex h-10 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
@@ -57,7 +57,7 @@ const ThreeDCard = () => {
                       </button>
                     </ButtonsCard>
                   </Link>
-                </div>
+                </div> */}
               </CardBody>
             </CardContainer>
           </div>
@@ -71,51 +71,24 @@ export default ThreeDCard;
 
 const dummyData = [
   {
-    title: "EduFund - Mutual Funds & SIP",
+    title: "Brand Kit",
     description:
-      "EduFund, India's leading investment app, helps parents save for their children's education, ensuring a brighter future amid rising education expenses.",
-    image:
-      "https://github.com/lassiecoder/portfolio/assets/17312616/08a65762-328a-480e-bd20-cdc7df1a5a73",
-    link: "https://play.google.com/store/apps/details?id=com.educationfund.edufund"
+      "Full-stack brand kit management app using React, Vite, Railway, TypeScript, Express.js, and PostgreSQL, with authentication and CRUD operations.",
+    image: "/brand-kit.png", // Updated image path
+    link: "https://play.google.com/store/apps/details?id=com.educationfund.edufund",
   },
   {
-    title: "Shoplane – E-commerce website",
+    title: "Expense Tracker",
     description:
-      "Shoplane's GitHub repository, with 340 stars and 250 forks, is a significant player in open-source e-commerce, influencing the online retail sector's development.",
-    image:
-      "https://github.com/lassiecoder/portfolio/assets/17312616/357237f8-298a-4f77-9cf4-63bea0b9892d",
-    link: "https://github.com/lassiecoder/E-CommerceWebsite"
+      "A full-stack Next.js 14 finance management app with expense tracking and insights, built using React, TypeScript, Drizzle ORM, Auth.js, and PostgreSQL.",
+    image: "/expense-tracker.png", // Updated image path
+    link: "https://play.google.com/store/apps/details?id=com.educationfund.edufund",
   },
   {
-    title: "Torum: Your Crypto Social App",
+    title: "Spotify Playlist Data",
     description:
-      "Torum's mobile app fosters a vibrant SocialFi ecosystem, connecting over 230,000 cryptocurrency enthusiasts since its 2018 inception.",
-    image:
-      "https://github.com/lassiecoder/portfolio/assets/17312616/b86aa717-34bf-4aa2-a8fd-ae850e27ff62",
-    link: "https://play.google.com/store/apps/details?id=com.torum.app&amp;hl=en_IN&amp;gl=US"
+      "A Next.js web app leveraging TypeScript, tRPC, Prisma, Tailwind CSS, and the Spotify API to analyze playlist data, with NextAuth.js for authentication and Material-UI for styling.",
+    image: "/mumetric.png", // Updated image path
+    link: "https://play.google.com/store/apps/details?id=com.educationfund.edufund",
   },
-  {
-    title: "npx lassiecoder – in your terminal?",
-    description:
-      "A personalized command-line business card. This innovative tool allows you to showcase your professional profile, skills, and contact information in the terminal.",
-    image:
-      "https://github.com/lassiecoder/npx-lassiecoder/assets/17312616/fb0fd710-69ef-46ef-9f73-54ee4149c86f",
-    link: "https://github.com/lassiecoder/npx-lassiecoder"
-  },
-  {
-    title: "Mutual funding app",
-    description:
-      "The proof-of-concept app exhibits mutual funds with authentication, presenting a scrollable list of key fund information. Selecting a fund directs users to a detailed product page for additional insights.",
-    image:
-      "https://github.com/lassiecoder/portfolio/assets/17312616/fbcc8292-4b94-4156-8125-07ac93f9266e",
-    link: "https://github.com/lassiecoder/mutual-funding-app"
-  },
-  {
-    title: "Adecco",
-    description:
-      "The Adecco mobile app transforms job placement with accuracy, speed, and thorough evaluation. Daily linking over 700,000 individuals to top-tier global opportunities.",
-    image:
-      "https://github.com/lassiecoder/portfolio/assets/17312616/261c3286-edf3-4ba9-bf70-027fde826915",
-    link: "https://play.google.com/store/apps/details?id=com.adecco.app20&amp;hl=en_IN&amp;gl=US"
-  }
 ];

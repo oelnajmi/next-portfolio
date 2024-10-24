@@ -10,7 +10,7 @@ const ContactForm = () => {
     "Suggestions",
     "Collaboration",
     "Feedback",
-    "Networking"
+    "Networking",
   ];
   return (
     <div className="max-w-7xl mx-auto px-4 mt-44 ">
@@ -61,25 +61,15 @@ const ContactForm = () => {
             href="mailto:sharmapriyanka84510@gmail.com"
             target="_blank"
           >
-            lassiecoder@gmail.com
+            oelnajmi@gmail.com
           </a>
           . I strive to respond to all messages within{" "}
           <span className="text-white font-medium">24 hours</span>, although it
           may take a bit longer during busy periods.{" "}
         </p>
-        If you prefer social media, you can also find me on{" "}
-        <span className="text-white font-medium">Instagram</span> at
-        <a
-          className="bg-gradient-to-r from-pink-500 to-gray-400 text-transparent bg-clip-text font-medium ml-2"
-          href="https://instagram.com/lassiecoder"
-          target="_blank"
-        >
-          @lassiecoder
-        </a>
-        .
       </h3>
       <div className="text-sm pt-60 sm:mt-20 font-extralight text-center relative z-20 text-gray-400 max-w-7xl pb-8">
-        Always be caffeinated! | © Priyanka Sharma (lassiecoder)
+        Debugging the world, one line at a time | Omar Elnajmi
       </div>
     </div>
   );

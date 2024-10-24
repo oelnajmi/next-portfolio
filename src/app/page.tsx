@@ -24,7 +24,7 @@ export default function Home() {
       <About />
       <Experience />
       <ThreeDCard />
-      <Article />
+      {/* <Article /> */}
       <ContactForm />
     </>
   );

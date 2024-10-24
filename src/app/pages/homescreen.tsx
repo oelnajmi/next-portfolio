@@ -7,13 +7,13 @@ import {
   IconExchange,
   IconHome,
   IconNewSection,
-  IconTerminal2
+  IconTerminal2,
 } from "@tabler/icons-react";
 import Image from "next/image";
 import { FlipWords } from "@/components/ui/flip-words";
 
 export default function HomeScreen() {
-  const words = ["Hi! I'm Priyanka Sharma"];
+  const words = ["Hi! I'm Omar Elnajmi"];
   return (
     <div className="h-screen">
       {/* home screen */}
@@ -21,9 +21,6 @@ export default function HomeScreen() {
       <div className="h-screen w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
         <h1 className="md:text-6xl text-2xl lg:text-6xl font-bold text-center text-white relative z-20 mt-30">
           <div className="flex header-container">
-            {/* <div className="mr-2 title-box">
-              <p className="text">Hi! I&apos;m </p>
-            </div> */}
             <div className="subtitle-box">
               <FlipWords duration={3000} words={words} />
             </div>
@@ -31,22 +28,18 @@ export default function HomeScreen() {
         </h1>
         <h3 className="md:text-xl text-sm lg:text-xl font-extralight text-center relative z-20 text-gray-400 mt-10 max-w-7xl mb-2 lg:mb-4 pl-4 pr-4">
           <p className="leading-relaxed">
-            A <span className="text-white font-medium">Software Developer</span>{" "}
-            specializing in <span className="text-white">frontend</span> and{" "}
-            <span className="text-white">mobile app</span> development.
+            A{" "}
+            <span className="text-white font-medium">Full Stack Developer</span>{" "}
+            specializing in <span className="text-white">DevOps</span> and{" "}
+            <span className="text-white">full stack development</span>.
           </p>
           <p className="leading-relaxed">
-            I thrive on challenges, passionate about{" "}
-            <span className="text-white">learning new skills</span>,{/* </p> */}
-            {/* <p className="leading-relaxed"> */} and{" "}
-            <span className="text-white">dedicated to writing clean</span>,{" "}
-            <span className="text-white">professional code</span>.
+            I excel in creating end-to-end solutions, passionate about{" "}
+            <span className="text-white">optimizing development workflows</span>
+            , and{" "}
+            <span className="text-white">dedicated to building scalable</span>,{" "}
+            <span className="text-white">efficient applications</span>.
           </p>
-          {/* Software Developer, skilled at crafting both mobile and web solutions.{" "}
-          <br />
-          I thrive on challenges, love learning new skills, and aim to write
-          clean, professional code. <br />I constantly seek opportunities to
-          grow as a developer. */}
         </h3>
 
         <div className="w-full h-40 relative">
@@ -80,7 +73,7 @@ const links = [
     icon: (
       <IconHome className="h-full w-full text-neutral-500 dark:text-neutral-300" />
     ),
-    href: "#"
+    href: "#",
   },
 
   {
@@ -88,14 +81,14 @@ const links = [
     icon: (
       <IconTerminal2 className="h-full w-full text-neutral-500 dark:text-neutral-300" />
     ),
-    href: "#"
+    href: "#",
   },
   {
     title: "Components",
     icon: (
       <IconNewSection className="h-full w-full text-neutral-500 dark:text-neutral-300" />
     ),
-    href: "#"
+    href: "#",
   },
   {
     title: "Aceternity UI",
@@ -107,14 +100,14 @@ const links = [
         alt="Aceternity Logo"
       />
     ),
-    href: "#"
+    href: "#",
   },
   {
     title: "Changelog",
     icon: (
       <IconExchange className="h-full w-full text-neutral-500 dark:text-neutral-300" />
     ),
-    href: "#"
+    href: "#",
   },
 
   {
@@ -122,13 +115,13 @@ const links = [
     icon: (
       <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
     ),
-    href: "#"
+    href: "#",
   },
   {
     title: "GitHub",
     icon: (
       <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
     ),
-    href: "#"
-  }
+    href: "#",
+  },
 ];
